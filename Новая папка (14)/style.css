@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #44BAFC;
+    overflow-x: hidden;
+}
+nav{
+    position: fixed;;
+    width: 61px;
+    height: 100vh;
+    background: rgba(0, 11, 20, 0.88); 
+    display: flex;
+    flex-wrap: wrap;
+}
+nav > div >img{
+    text-align: center;
+    margin: 15px;
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+nav > div >img:hover{
+    background: grey;
+}
+.nav-icon{
+    margin-top: 50vh;
+}
+.logo{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+.logo > p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29.5932px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+.text{
+    width: 1379px;
+    height: 183px;
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29.5932px;
+    line-height: 35px;
+    color: #FFFFFF;
+}
+.big-text{
+    font-size: 70px;
+    text-align: 400;
+}
+.content1{
+    height: 810px;
+}
+.content2{
+    padding-top: 20px;
+    width: 100%;
+    height: 969px;
+    background-color: rgb(255, 255, 255);
+}
+.tetxt-contetn2{
+    margin-left: 220px;
+    width: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 29.5932px;
+    line-height: 35px;
+}
+.tetxt-contetn2 > h1{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 60px;
+    line-height: 35px;
+}
+.img-text{
+    display: flex;
+    justify-content: center;
+}
+.justifi{
+    margin-top: -40px;
+    font-size: 26px;
+}
+.tetxt-contetn2 >button{
+    margin-top: 30px;
+    width: 179px;
+    height: 60px;
+    background: #00A5EC;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+.tetxt-contetn2 >button:hover{
+    background-color:#0295d4;
+}
